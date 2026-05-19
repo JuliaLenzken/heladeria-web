@@ -1,0 +1,4 @@
+src/app/components/ui/
+src/app/components/figma/
+dist/
+node_modules/

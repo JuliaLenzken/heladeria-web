@@ -1,0 +1,94 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Estilos personalizados */
+.welcome-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-text-stroke: 1px #800020;
+}
+
+.footer-text {
+  color: yellow;
+  -webkit-text-stroke: 2px black;
+  text-shadow: none;
+}
+
+.flavor-button {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.flavor-icon-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.flavor-icon {
+  color: #800020;
+}
+
+.flavor-name {
+  color: #800020;
+}
+
+.progress-indicator {
+  transform: translateX(calc(-1 * var(--progress-value)));
+}
+
+/* Flavor button color variants */
+.flavor-bg-vainilla { background-color: #FFF4E040; }
+.flavor-bg-chocolate { background-color: #8B451340; }
+.flavor-bg-fresa { background-color: #FF69B440; }
+.flavor-bg-menta { background-color: #98FF9840; }
+.flavor-bg-limon { background-color: #FFE13540; }
+.flavor-bg-pistacho { background-color: #93C57240; }
+.flavor-bg-frambuesa { background-color: #E30B5C40; }
+.flavor-bg-coco { background-color: #F5F5DC40; }
+.flavor-bg-dulce-de-leche { background-color: #C19A6B40; }
+.flavor-bg-mango { background-color: #FFA50040; }
+.flavor-bg-arandanos { background-color: #4169E140; }
+.flavor-bg-cafe { background-color: #6F4E3740; }
+.flavor-bg-cookies-cream { background-color: #F0F0F040; }
+.flavor-bg-banana-split { background-color: #FFEB3B40; }
+.flavor-bg-caramelo { background-color: #D2691E40; }
+.flavor-bg-cereza { background-color: #DC143C40; }
+.flavor-bg-stracciatella { background-color: #FFFAF040; }
+.flavor-bg-ron-con-pasas { background-color: #A0826D40; }
+.flavor-bg-maracuya { background-color: #FFD70040; }
+.flavor-bg-turron { background-color: #DEB88740; }
+
+.flavor-icon-vainilla { color: #FFF4E0; }
+.flavor-icon-chocolate { color: #8B4513; }
+.flavor-icon-fresa { color: #FF69B4; }
+.flavor-icon-menta { color: #98FF98; }
+.flavor-icon-limon { color: #FFE135; }
+.flavor-icon-pistacho { color: #93C572; }
+.flavor-icon-frambuesa { color: #E30B5C; }
+.flavor-icon-coco { color: #F5F5DC; }
+.flavor-icon-dulce-de-leche { color: #C19A6B; }
+.flavor-icon-mango { color: #FFA500; }
+.flavor-icon-arandanos { color: #4169E1; }
+.flavor-icon-cafe { color: #6F4E37; }
+.flavor-icon-cookies-cream { color: #F0F0F0; }
+.flavor-icon-banana-split { color: #FFEB3B; }
+.flavor-icon-caramelo { color: #D2691E; }
+.flavor-icon-cereza { color: #DC143C; }
+.flavor-icon-stracciatella { color: #FFFAF0; }
+.flavor-icon-ron-con-pasas { color: #A0826D; }
+.flavor-icon-maracuya { color: #FFD700; }
+.flavor-icon-turron { color: #DEB887; }
+
+/* ImageWithFallback component styles */
+.image-with-fallback {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.image-with-fallback-error {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 88px;
+  min-width: 88px;
+}
