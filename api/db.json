@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "julia",
+      "name": "Julia Lenzken",
+      "email": "julia@heladeria.com",
+      "password": "lenzken",
+      "role": "admin",
+      "createdAt": "2026-08-03T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "¼ Kg — 3 Sabores",
+      "description": "Elegí 3 sabores en porción individual",
+      "price": 5.99,
+      "size": "1/4",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 2,
+      "title": "½ Kg — 3 Sabores",
+      "description": "Perfecta para compartir en familia",
+      "price": 10.99,
+      "size": "1/2",
+      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 3,
+      "title": "1 Kg — 4 Sabores",
+      "description": "La opción más elegida del local",
+      "price": 19.99,
+      "size": "1",
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 4,
+      "title": "3 Bochas con Crema",
+      "description": "Bochas artesanales con crema batida",
+      "price": 7.5,
+      "size": "1/4",
+      "image": "https://images.unsplash.com/photo-1464306076886-da185f6a9d8d?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 5,
+      "title": "Para Compartir con Crema",
+      "description": "Bandeja familiar con crema y frutos",
+      "price": 22.5,
+      "size": "1",
+      "image": "https://images.unsplash.com/photo-1574085713468-5d8c8f8e4f0d?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "author": "Lucía",
+      "text": "Excelente atención y sabores impecables."
+    },
+    {
+      "id": 2,
+      "author": "Mateo",
+      "text": "La presentación es muy refinada y el carrito se siente muy fluido."
+    }
+  ],
+  "orders": [
+    {
+      "id": 1785874166312,
+      "items": [
+        {
+          "title": "Prueba persistencia",
+          "qty": 1
+        }
+      ],
+      "total": 99,
+      "customer": "Julia Lenzken",
+      "email": "julia@heladeria.com",
+      "createdAt": "2026-08-04T20:09:26.312Z"
+    },
+    {
+      "id": 1785874277043,
+      "items": [
+        {
+          "title": "Prueba persistencia",
+          "qty": 1
+        }
+      ],
+      "total": 99,
+      "customer": "Julia Lenzken",
+      "email": "julia@heladeria.com",
+      "createdAt": "2026-08-04T20:11:17.043Z"
+    },
+    {
+      "id": 1785889671168,
+      "customer": "Julia Lenzken",
+      "email": "julia@heladeria.com",
+      "items": [
+        {
+          "id": "1 Kg — 4 Sabores-1-1785889560627",
+          "flavor": "1 Kg — 4 Sabores",
+          "size": "1",
+          "price": 19.99,
+          "quantity": 2
+        }
+      ],
+      "total": 39.98,
+      "createdAt": "2026-08-05T00:27:51.168Z"
+    }
+  ]
+}
